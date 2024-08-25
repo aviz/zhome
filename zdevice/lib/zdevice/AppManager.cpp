@@ -13,8 +13,6 @@ void AppManager::onSetup() {
     Log.notice("-----------------------------\n");
     Event::publish(ON_INIT);
     Event::publish(ON_SETUP);
-
-
 }
 
 void AppManager::onLoop() {

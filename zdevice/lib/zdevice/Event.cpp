@@ -6,6 +6,8 @@
 #include <chrono>
 #include <ArduinoLog.h>
 
+Event* Event::instance = nullptr;
+
 void Event::subscribe(std::string caller, int eventId, EventCb cb) {
     Event::getInstance()._subscribe(caller, eventId, cb);
 }

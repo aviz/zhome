@@ -12,8 +12,6 @@ public:
 
     void onSetup();
     void onLoop();
-
-
 };
 
 
